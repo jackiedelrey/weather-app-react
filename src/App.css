@@ -1,16 +1,97 @@
-.App {
+h2 {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+li:first-letter {
+  text-transform: capitalize;
+}
+
+ul {
+  list-style-type: none;
+  margin: 10px auto;
+  padding: 0px;
+  font-size: 15px;
+}
+
+.weather-app {
+  position: relative;
+  max-width: 600px;
+  padding: 20px;
+  border: 1px solid;
+  border-radius: 5px;
+  text-align: left;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.buttons {
+  margin: 20px auto;
+}
+
+.currentTemperature {
+  margin: 0px;
+  text-align: right;
+  padding: 10px, 0px, 10px, 10px;
+  font-size: 30px;
+}
+
+.sourceCode {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.sourceCode .active:hover {
+  cursor: pointer;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.col-right {
+  text-align: right;
+}
+
+.units {
+  position: relative;
+  top: -8px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.units a {
+  text-decoration: none;
+  color: black;
+}
+
+.units a:hover {
+  color: grey;
+  cursor: default;
+}
+
+.buttons {
+  margin: 0px;
+  text-align: right;
+}
+.form-control {
+  margin-bottom: 5px;
+}
+
+.weather-forecast {
+  margin-top: 20px;
+  text-align: center;
+  color: black;
+}
+
+.weather-forecast-date {
+  font-size: 18px;
+  color: black;
+  opacity: 0.5;
+}
+
+.weather-forecast-temperatures {
+  font-size: 13px;
+}
+
+.weather-forecast-temperature-min {
+  opacity: 0.5;
 }
 
 .App-header {
