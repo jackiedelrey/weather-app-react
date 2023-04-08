@@ -98,10 +98,7 @@ function App() {
             </div>
           </div>
           <div class="sourceCode">
-            <a
-              href="https://github.com/jackiedelrey/weather-app-react"
-              target="_blank"
-            >
+            <a href="https://github.com/jackiedelrey/weather-app-react">
               Open source code
             </a>
             <span class="name"> by Jackie Shields</span>
